@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet&family=Indie+Flower&family=Rubik+Iso&display=swap');
+
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+width: 400px;
+position: fixed;
+top: 25px;
+left: 25px;
+font-family: 'Rubik Iso', cursive;
+}
+
+h3{
+    background-color:lightyellow;
+    font-family: 'Rubik Iso', cursive;
+    color: darkcyan;
+    padding: 25px;
+    border: 5px lightcoral solid;
+}
+
+nav{
+width: 300px;
+position: fixed;
+top: 150px;
+left: 25px;
+}
+
+main{
+    width: 650px;
+    margin-left: 500px;
+}
+
+main p{
+    font-family: 'Handjet', cursive;
+    color: darkcyan;
+}
+
+section{
+    background-color: cornsilk;
+    padding: 25px;
+    border: 10px black solid;
+    margin-top:50px;
+    text-align: center;
+}
+
+section img{
+    display: block;
+    margin: auto; 
+}
+
+section p{
+    text-align: center;
+    color:crimson;
+    font-family: 'Handjet', cursive;
+}
+
+footer{
+    background-color: lightyellow;
+    color: darkcyan;
+    width: 400px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    font-family: 'Rubik Iso', cursive;
+    border: 5px lightcoral solid;
+}
