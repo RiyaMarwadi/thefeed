@@ -3,6 +3,8 @@
 body{
     max-width: 1200px;
     margin: auto;
+    background-image:
+    url("../img/background.jpg");
 }
 
 header{
@@ -26,6 +28,11 @@ width: 300px;
 position: fixed;
 top: 150px;
 left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 main{
@@ -53,7 +60,7 @@ section img{
 
 section p{
     text-align: center;
-    color:crimson;
+    color:darkcyan;
     font-family: 'Handjet', cursive;
 }
 
