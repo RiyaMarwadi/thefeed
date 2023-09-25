@@ -4,7 +4,9 @@ body{
     max-width: 1200px;
     margin: auto;
     background-image:
-    url("../img/7b82f5ff709f0ddc2ff89f3462e3117a.jpg");
+    url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
@@ -42,11 +44,11 @@ main{
 
 main p{
     font-family: 'Handjet', cursive;
+    font-size: medium;
     color: darkcyan;
 }
 
 section{
-    background-color: cornsilk;
     padding: 25px;
     border: 10px black solid;
     margin-top:50px;
