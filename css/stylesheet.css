@@ -15,21 +15,31 @@ position: fixed;
 top: 25px;
 left: 25px;
 font-family: 'Rubik Iso', cursive;
+font-size: large;
 }
 
-h3{
-    background-color:lightyellow;
-    font-family: 'Rubik Iso', cursive;
-    color: darkcyan;
-    padding: 25px;
-    border: 5px lightcoral solid;
+h1{
+    color: white;
+}
+
+a img{
+    width: 350px;
+    position: fixed;
+    top:25px;
+    left: 5px;
 }
 
 nav{
 width: 300px;
 position: fixed;
-top: 150px;
+top: 300px;
 left: 25px;
+}
+
+nav h3{
+    color: white;
+    font-family: 'Handjet', cursive;
+    text-decoration: underline;
 }
 
 a{
@@ -43,14 +53,14 @@ main{
 }
 
 main p{
-    font-family: 'Handjet', cursive;
-    font-size: medium;
-    color: darkcyan;
+    font-family: 'Rubik Iso', cursive;
+    font-size: xx-large;
+    color: white;
 }
 
 section{
     padding: 25px;
-    border: 10px black solid;
+    border: 5px white solid;
     margin-top:50px;
     text-align: center;
 }
@@ -62,17 +72,17 @@ section img{
 
 section p{
     text-align: center;
-    color:darkcyan;
+    border: 2px white dotted;
+    color:white;
     font-family: 'Handjet', cursive;
+    font-size: larger;
 }
 
 footer{
-    background-color: lightyellow;
-    color: darkcyan;
+    color: white;
     width: 400px;
     position: fixed;
     bottom: 25px;
     left: 25px;
     font-family: 'Rubik Iso', cursive;
-    border: 5px lightcoral solid;
 }
