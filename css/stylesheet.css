@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet&family=Indie+Flower&family=Rubik+Iso&display=swap');
 
 body{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     background-image:
     url("../img/1.jpg");
@@ -18,11 +18,7 @@ font-family: 'Rubik Iso', cursive;
 font-size: large;
 }
 
-h1{
-    color: white;
-}
-
-a img{
+header img{
     width: 350px;
     position: fixed;
     top:25px;
@@ -30,6 +26,7 @@ a img{
 }
 
 nav{
+border: 5px bisque dotted;
 width: 300px;
 position: fixed;
 top: 300px;
@@ -37,14 +34,17 @@ left: 25px;
 }
 
 nav h3{
-    color: white;
-    font-family: 'Handjet', cursive;
+    color: bisque;
+    font-family: 'Rubik Iso', cursive;
+    font-size: larger;
     text-decoration: underline;
 }
 
 a{
+    font-family: 'Rubik Iso', cursive;
     text-decoration: none;
-    color: white;
+    color:bisque; 
+    font-size: medium;
 }
 
 main{
@@ -59,8 +59,9 @@ main p{
 }
 
 section{
+    background-color: rgba(207, 134, 46, 0.256);
     padding: 25px;
-    border: 5px white solid;
+    border: 5px white dotted;
     margin-top:50px;
     text-align: center;
 }
@@ -72,7 +73,6 @@ section img{
 
 section p{
     text-align: center;
-    border: 2px white dotted;
     color:white;
     font-family: 'Handjet', cursive;
     font-size: larger;
@@ -86,3 +86,10 @@ footer{
     left: 25px;
     font-family: 'Rubik Iso', cursive;
 }
+
+#splashgif{ 
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
